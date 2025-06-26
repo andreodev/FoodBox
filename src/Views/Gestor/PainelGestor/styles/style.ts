@@ -1,0 +1,133 @@
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+  container: { flex: 1, backgroundColor: "#f5f5f5" },
+  header: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingTop: 50,
+    paddingHorizontal: 20,
+    paddingBottom: 10,
+    backgroundColor: "#fff",
+    elevation: 2,
+    zIndex: 2,
+  },
+  headerTitle: {
+    fontSize: 22,
+    fontWeight: "bold",
+    marginLeft: 18,
+    color: "#222",
+  },
+  content: {
+    padding: 20,
+  },
+  kpiRow: {
+    flexDirection: "row",
+    justifyContent: "space-between",
+    marginBottom: 24,
+  },
+  kpiBox: {
+    flex: 1,
+    backgroundColor: "#fff",
+    marginHorizontal: 6,
+    borderRadius: 10,
+    padding: 16,
+    alignItems: "center",
+    elevation: 1,
+  },
+  kpiValue: {
+    fontSize: 28,
+    fontWeight: "bold",
+    color: "#F97316",
+  },
+  kpiLabel: {
+    fontSize: 16,
+    color: "#333",
+    marginTop: 4,
+  },
+  kpiDesc: {
+    fontSize: 12,
+    color: "#888",
+    marginTop: 2,
+  },
+  section: {
+    backgroundColor: "#fff",
+    borderRadius: 10,
+    padding: 16,
+    marginBottom: 20,
+    elevation: 1,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: "bold",
+    marginBottom: 10,
+    color: "#222",
+  },
+  ratingsHeader: {
+  flexDirection: "row",
+  marginBottom: 10,
+  paddingBottom: 6,
+  borderBottomWidth: 1,
+  borderColor: "#e0e0e0",
+},
+ratingsRow: {
+  flexDirection: "row",
+  alignItems: "flex-start",
+  paddingVertical: 10,
+  columnGap: 24, 
+},
+ratingsColView: {
+  flexDirection: "row",
+  gap: 4,
+},
+  ratingsCol: {
+    fontWeight: "bold",
+    color: "#888",
+  },
+  chartMock: {
+    marginTop: 10,
+    paddingBottom: 10,
+  },
+  drawerOverlay: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    right: 0,
+    bottom: 0,
+    backgroundColor: "rgba(0,0,0,0.2)",
+    zIndex: 1,
+  },
+  drawer: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: 240,
+    height: "100%",
+    backgroundColor: "#fff",
+    paddingTop: 60,
+    paddingHorizontal: 10,
+    elevation: 5,
+    zIndex: 2,
+  },
+  drawerHeader: {
+    marginBottom: 18,
+    paddingLeft: 8,
+  },
+  drawerTitle: {
+    fontWeight: "bold",
+    fontSize: 15,
+    color: "#F97316",
+    letterSpacing: 1,
+  },
+  drawerItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    paddingVertical: 12,
+    paddingLeft: 8,
+    borderRadius: 6,
+  },
+  drawerItemText: {
+    fontSize: 15,
+    color: "#222",
+  },
+});

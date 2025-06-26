@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "452247743691",
+    "project_id": "foodboxd-ab81a",
+    "storage_bucket": "foodboxd-ab81a.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452247743691:android:bd9fb0c9469ef440d8bf4e",
+        "android_client_info": {
+          "package_name": "com.foodboxd"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452247743691-ckqf5fqhg86b6qgp7sa7cf0dm53v0jeo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDm5NdbcuNwdgJ5h0O5T_J0OfatzEEfZVQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452247743691-ckqf5fqhg86b6qgp7sa7cf0dm53v0jeo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

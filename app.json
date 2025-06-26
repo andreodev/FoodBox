@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "name": "foodboxdoficial",
+    "slug": "foodboxdoficial",
+    "version": "1.0.0",
+    "sdkVersion": "53.0.0",
+    "android": {
+      "jsEngine": "jsc",
+      "package": "com.anonymous.foodboxdoficial"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "155376ed-507d-429f-8762-09e0b9ee0614"
+      }
+    },
+    "owner": "andreow"
+  }
+}

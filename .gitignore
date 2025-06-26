@@ -1,0 +1,66 @@
+# Node dependencies
+node_modules/
+
+# Expo
+.expo/
+.expo-shared/
+dist/
+web-build/
+expo-env.d.ts
+
+# Babel
+babel.config.js
+
+# TypeScript
+*.tsbuildinfo
+
+# iOS / macOS
+ios/
+macos/
+*.xcworkspace
+*.xcuserstate
+*.xcodeproj
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+.DS_Store
+*.pem
+*.key
+*.mobileprovision
+
+# Android
+android/
+*.jks
+*.keystore
+*.apk
+*.ap_
+
+# Keystore / Signing
+*.p8
+*.p12
+*.key
+*.jks
+
+# Metro bundler
+.metro-cache/
+.metro-health-check*
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+expo-debug.log
+
+# Environment files
+.env
+.env*.local
+
+# Others
+*.orig.*
+*.swp
+.idea/
+.vscode/
+Thumbs.db
+ehthumbs.db
+*.iml
